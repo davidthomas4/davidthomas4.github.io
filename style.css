@@ -4,12 +4,44 @@
 }
 */
 
+* {
+  color: var(--fg);
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+}
+
+header {
+  text-align:center;
+  background-color:black;
+  vertical-align:middle;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Bohol_%28Philippines%29_banner_Chocolate_Hills.jpg");
+  height:300px;
+}
+
+
+body {
+  background-color:lightslategrey;
+}
+
+/*
+header {
+}
+*/
+
 p {
-  color: green;
+  color: black;
+  font-family:Helvetica;
 }
 
 h1 {
-  color: maroon;
+  color: black;
+  box-sizing: border-box;
+  text-align:center;
+  margin:30px auto;
+  padding:40px;
+  font-size:50px;
+  font-weight:normal;
+  width:85%;
 }
 
 .title {
@@ -34,6 +66,10 @@ a[href*='beijing'] {
 
 a[href*='seoul'] {
   color: lightpink;
+}
+
+a {
+  display:none;
 }
 
 a:hover {
