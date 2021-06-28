@@ -1,118 +1,81 @@
-/*
 * {
-  border: 1px solid red;
-}
-*/
-
-* {
-  color: var(--fg);
   box-sizing: border-box;
-  font-family: 'Source Code Pro', monospace;
+  margin:0;
 }
 
 header {
   text-align:center;
-  background-color:black;
   vertical-align:middle;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Bohol_%28Philippines%29_banner_Chocolate_Hills.jpg");
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Bohol_%28Philippines%29_banner_Chocolate_Hills.jpg");
   height:300px;
-}
-
-
-body {
-  background-color:lightslategrey;
-}
-
-/*
-header {
-}
-*/
-
-p {
-  color: black;
-  font-family:Helvetica;
+  margin: 0 auto;
 }
 
 h1 {
   color: black;
-  box-sizing: border-box;
   text-align:center;
-  margin:30px auto;
   padding:40px;
   font-size:50px;
   font-weight:normal;
-  width:85%;
 }
 
-.title {
-  color: teal;
+body {
+  background-color:#25587A;
+  width:95%;
+  margin: 0 auto;
 }
 
-.uppercase {
-  text-transform: uppercase;
+nav {
+  position:sticky;
+  top:0;
 }
 
-#article-title {
-  font-family: cursive;
+nav ul {
+  list-style-type:none;
+  background-color:#383B3D;
+  overflow:hidden;
+  border:1px solid black;
+  margin: 0 auto;
+  padding: 0;
 }
 
-a[href*='florence'] {
-  color: lightgreen;
+nav li {
+  float:left;
+  text-align:center;
+  margin: 0 auto;
+  width:20%;
+  border-right:1px solid black;
 }
 
-a[href*='beijing'] {
-  color: lightblue;
+nav li:last-child {
+  border-right: none;
 }
 
-a[href*='seoul'] {
-  color: lightpink;
+nav a {
+  display:block;
+  text-decoration:none;
+  color:#DFE2E5;
+  padding: 6px;
 }
 
-a {
-  display:none;
+nav a:hover {
+  background-color:black;
+  color:white;
 }
 
-a:hover {
-  color:darkorange;
+/*
+.active {
+  background-color:black;
+  color:white;
+}
+*/
+
+main {
+  background-color:#E2DCDC;
+  padding: 0 20px;
+  min-height:600px;
 }
 
-.heading-background {
-  background-color: aqua;
-}
-
-#publish-time {
-  color: lightgray;
-}
-
-h5 {
-  color: yellow;
-}
-
-.author-class {
-  color: pink;
-}
-
-#author-id {
-  color: cornflowerblue;
-}
-
-h2.destination {
-  font-family: Tahoma;
-}
-
-.description h5 {
-  color: blueviolet;
-}
-
-li h4 {
-  color: gold;
-}
-
-h4 {
-  color: dodgerblue;
-}
-
-li,
-h5 {
-  font-family: monospace;
+p {
+  color:black;
 }
