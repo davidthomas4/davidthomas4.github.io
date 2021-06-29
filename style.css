@@ -79,3 +79,19 @@ main {
 p {
   color:black;
 }
+
+.heading {
+   padding:20px;
+}
+
+.container {
+  padding:0 30px;
+}
+
+.container li {
+  padding:10px;
+}
+
+ol a:hover {
+  color:#FFD707;
+}
