@@ -59,16 +59,14 @@ nav a {
 }
 
 nav a:hover {
-  background-color:black;
+  background-color:#25587A;
   color:white;
 }
 
-/*
 .active {
-  background-color:black;
+  background-color:#25587A;
   color:white;
 }
-*/
 
 main {
   background-color:#E2DCDC;
@@ -94,4 +92,12 @@ p {
 
 a:hover {
   color:#FFD707;
+}
+
+footer {
+  background-color:#383B3D;
+}
+
+footer p {
+  color:black;
 }
