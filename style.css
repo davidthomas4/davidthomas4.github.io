@@ -34,7 +34,7 @@ nav ul {
   list-style-type:none;
   background-color:#383B3D;
   overflow:hidden;
-  border:1px solid black;
+/*  border:1px solid black;*/
   margin: 0 auto;
   padding: 0;
 }
@@ -76,6 +76,11 @@ main {
 
 p {
   color:black;
+  margin-bottom:1cm;
+}
+
+.first-line {
+  margin-bottom:0cm;
 }
 
 .heading {
