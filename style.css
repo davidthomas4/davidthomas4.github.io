@@ -70,8 +70,7 @@ nav a:hover {
 
 main {
   background-color:#E2DCDC;
-  padding: 0 20px;
-  min-height:600px;
+  padding: 10px 20px;
 }
 
 p {
@@ -105,4 +104,9 @@ footer {
 
 footer p {
   color:black;
+  display:inline-block;
+}
+
+footer .links {
+  text-align:center;
 }
