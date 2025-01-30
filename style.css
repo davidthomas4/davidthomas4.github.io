@@ -7,7 +7,6 @@ header {
   text-align:center;
   vertical-align:middle;
 /*  background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Bohol_%28Philippines%29_banner_Chocolate_Hills.jpg");*/
-  background-image:url("./DandR.jpg");
   height:300px;
   margin: 0 auto;
 }
@@ -21,7 +20,8 @@ h1 {
 }
 
 body {
-  background-color:#25587A;
+/*  background-color:#25587A;*/
+  background-image:url("./DandR.jpg");
   width:95%;
   margin: 0 auto;
 }
@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 main {
-  background-color:#E2DCDC;
+/*  background-color:#E2DCDC;*/
   padding: 10px 20px;
 }
 
