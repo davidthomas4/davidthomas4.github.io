@@ -14,15 +14,17 @@ header {
 h1 {
   color: black;
   text-align:center;
-  padding:40px;
-  font-size:50px;
+  padding:80px;
+  font-size:100px;
   font-weight:normal;
 }
 
 body {
 /*  background-color:#25587A;*/
   background-image:url("./DandR.jpg");
-  width:100%;
+  background-position:center top;
+  background-size: cover;
+  height:100%;
   margin: 0 0;
 }
 
@@ -71,9 +73,8 @@ nav a:hover {
 
 main {
 /*  background-color:#E2DCDC;*/
-  color: white;
   text-align:center;
-  font-size:30px;
+  font-size:50px;
   padding: 10px 10px;
 }
 
@@ -87,7 +88,7 @@ p {
 }
 
 .heading {
-   padding:20px;
+   padding:0px;
 }
 
 .container {
