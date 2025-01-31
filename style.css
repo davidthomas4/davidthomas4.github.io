@@ -15,7 +15,7 @@ h1 {
   color: black;
   text-align:center;
   padding:80px;
-  font-size:100px;
+  font-size:10vw;
   font-weight:normal;
 }
 
@@ -74,7 +74,7 @@ nav a:hover {
 main {
 /*  background-color:#E2DCDC;*/
   text-align:center;
-  font-size:50px;
+  font-size:5vw;
   padding: 10px 10px;
 }
 
