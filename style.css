@@ -24,6 +24,7 @@ body {
   background-image:url("./DandR.jpg");
   background-position:center top;
   background-size: cover;
+  background-repeat: no-repeat;
   height:100%;
   margin: 0 0;
 }
