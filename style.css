@@ -6,27 +6,23 @@
 header {
   text-align:center;
   vertical-align:middle;
-/*  background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Bohol_%28Philippines%29_banner_Chocolate_Hills.jpg");*/
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Bohol_%28Philippines%29_banner_Chocolate_Hills.jpg");
   height:300px;
-  margin: 0 0;
+  margin: 0 auto;
 }
 
 h1 {
   color: black;
   text-align:center;
-  padding:80px;
-  font-size:10vw;
+  padding:40px;
+  font-size:50px;
   font-weight:normal;
 }
 
 body {
-/*  background-color:#25587A;*/
-  background-image:url("./DandR.jpg");
-  background-position:center top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height:100%;
-  margin: 0 0;
+  background-color:#25587A;
+  width:95%;
+  margin: 0 auto;
 }
 
 nav {
@@ -39,7 +35,7 @@ nav ul {
   background-color:#383B3D;
   overflow:hidden;
 /*  border:1px solid black;*/
-  margin: 0 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -73,10 +69,8 @@ nav a:hover {
 }
 
 main {
-/*  background-color:#E2DCDC;*/
-  text-align:center;
-  font-size:5vw;
-  padding: 10px 10px;
+  background-color:#E2DCDC;
+  padding: 10px 20px;
 }
 
 p {
@@ -89,11 +83,11 @@ p {
 }
 
 .heading {
-   padding:0px;
+   padding:20px;
 }
 
 .container {
-  padding:0 0px;
+  padding:0 30px;
 }
 
 .container li {
